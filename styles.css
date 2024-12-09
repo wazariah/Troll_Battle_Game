@@ -1,0 +1,57 @@
+/* JavaScript Battle Game Project */
+
+/* font-family: "Rubik Wet Paint", serif;
+font-family: "Mogra", serif;
+font-family: "Jolly Lodger", serif;
+font-family: "Bree Serif", serif; 
+
+*/
+
+body {
+	background-color: forestgreen;
+	background-image: url("forest.jpg");
+	background-repeat: no-repeat;
+	background-size: 1300px;
+	text-align: center;
+}
+
+h1 {
+	font-family: "Rubik Wet Paint", serif;
+	color: lightgreen;
+	font-size: 2.3em;
+	text-shadow: darkred 2px 4px 2px, black 4px 3px 1px;
+	animation: glow 2s infinite;
+}
+
+div#button {
+	background-color: darkgreen;
+	font-family: "Jolly Lodger", serif;
+	font-size: 2.5em;
+	letter-spacing: 5px;
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	box-shadow: lightgreen 2px 1px 3px;
+	cursor: pointer;
+	transition: all 1s;
+}
+
+div#button:hover {
+	background-color: black;
+	color: forestgreen;
+}
+
+h2#victory {
+	font-family: "Bree Serif", serif; 
+	color: yellow;
+	font-size: 1.5em;
+	text-shadow: black 3px 3px 1px;
+}
+
+h2#defeat {
+	font-family: "Rubik Wet Paint", serif;
+	color: darkred;
+	font-size: 1.5em;
+	text-shadow: white 2px 2px 2px, black 3px 3px 1px;
+}
